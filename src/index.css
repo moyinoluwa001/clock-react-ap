@@ -1,0 +1,28 @@
+body{
+  background-image: url(assets/window.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100hv;
+  text-align: center;
+
+}
+
+.clock-continer{
+backdrop-filter: blue(6px);
+width: 100vw;
+padding: 10px,0;
+}
+
+.clock{
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: hsl(41, 20%, 68%);
+  font-family: monospace;
+}
